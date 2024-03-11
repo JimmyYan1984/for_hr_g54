@@ -101,7 +101,7 @@ class HrTool:
                 shutil.copyfile('template.xlsx', valid_survey_file)
 
             index += 1
-            print(f' write valid_survey_file Processing {all_index*(times-1) +index}/{all_index*times}...')
+            print(f' write valid_survey_file Processing {all_index*(times-1) +index}/{all_index*2}...')
 
             wb = load_workbook(valid_survey_file)
             ws = wb.active
